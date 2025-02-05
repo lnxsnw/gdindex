@@ -421,6 +421,7 @@ function renderHTML(colo, timestamp, path) {
 
   </div>
         <nav>
+          <button onclick="location.reload(true);">Refresh</button>
           <button onclick="window.history.back();">Go Back</button>
         </nav>
         <p class="server-stats">Served by Cloudflare ${colo}<br>${timestamp}</p>
